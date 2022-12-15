@@ -6,7 +6,7 @@ name: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-devops
-  LOCATION: westeurope
+  LOCATION: East US
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: a2ac5ad4-8651-4373-a610-b583676532ed
   WEBAPP-NAME: az400-webapp-devops
